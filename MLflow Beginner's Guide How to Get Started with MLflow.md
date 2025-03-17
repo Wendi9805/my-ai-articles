@@ -2,7 +2,7 @@
 
 Let's explore MLflow together.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mlflow-1.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mlflow-1.png)
 <div align="center"><small>MLFlow logo</small></div>
 
 ## Authors
@@ -44,13 +44,13 @@ mlflow server --host 127.0.0.1 --port 8080
 
 After running the above command, you will see the URL for the running MLflow UI displayed in the terminal, as shown in the image below.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mlflow-2.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mlflow-2.jpg)
 <div align="center"><small>MLFlow server is running in the terminal</small></div>
 
 <br>
 By opening this URL in your browser, you will see the UI as depicted in the following image:
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mlflow-3.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mlflow-3.jpg)
 <div align="center"><small>MLFlow UI</small></div>
 
 ##  MLflow Tutorial
@@ -157,7 +157,7 @@ To view the results of our run, we can navigate to the MLflow UI. Since the Trac
 
 Once the site opens, you'll see a screen similar to the one below:
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mlflow-4.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mlflow-4.png)
 <div align="center"><small>The main MLflow Tracking page, showing Experiments that have been created, downloaded from MLflow website</small></div>
 
 <br>
@@ -166,14 +166,14 @@ By clicking on the name of the experiment we created ("MLflow Quickstart"), you'
 
 Clicking on the run's name will take you to the run details page, where you can view all the information we've logged. The key elements are highlighted below to show how and where this data is displayed within the UI:
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mlflow-5.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mlflow-5.png)
 <div align="center"><small>The run view page for our run, downloaded from MLflow website</small></div>
 
 <br>
 
 Our model have also been saved in Registered Model section named as "tracking-quickstart":
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mlflow-6.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mlflow-6.jpg)
 <div align="center"><small>Registered model page</small></div>
 
 ### Step 4: Load the model as a Python Function (pyfunc) and use it for inference
@@ -202,7 +202,7 @@ This code loads a previously saved model from MLflow and makes predictions on th
 
 The output of this code will look something like this:
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mlflow-7.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mlflow-7.jpg)
 <div align="center"><small>Outcomes of Prediction by loaded model</small></div>
 
 Of course, we can also specify the pre-trained model we want to run by selecting the `run_id`, and we can provide new data for it to make predictions. Below is a simple code example:
