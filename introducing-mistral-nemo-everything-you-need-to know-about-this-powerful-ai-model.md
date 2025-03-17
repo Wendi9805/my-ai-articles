@@ -2,7 +2,7 @@
 
 Now is the perfect time to explore Mistral NeMo!
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mistralnemo-0.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mistralnemo-0.png)
 <div align="center"><small>Created using DALLE on August 8, 2024</small></div>
 
 ## Authors
@@ -48,12 +48,12 @@ The [Mistral.ai](https://mistral.ai/) platform offers an accessible way to use M
 
 4. Choose the model named Mistral NeMo.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mistralnemo-1.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mistralnemo-1.png)
 <div align="center"><small>Official Mistral Homepage</small></div>
 
 Now you can begin using Mistral NeMo for your NLP projects. The platform has a simple interface where you can input text and view the outputs, making it easy to use for individuals at any skill level.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mistralnemo-3.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mistralnemo-3.jpg)
 <div align="center"><small>Change the model to Mistral NeMo and try it</small></div>
 
 ### 2. Set up Mistral NeMo on your own systems
@@ -65,7 +65,7 @@ If we need to install Mistral NeMo on our own devices, we can do so with the hel
 
 2. Go to the [Ollama hompage](https://ollama.com/) to install Ollama based on the systems you use.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mistral-ollama-wendi.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mistral-ollama-wendi.png)
 <div align="center"><small>Ollama homepage</small></div>
 
 3. Run the command below in the terminal. If you have already downloaded Mistral NeMo, it will run immediately. If not, it will download it first and then run it for you.
@@ -76,12 +76,12 @@ ollama run mistral-nemo
 
 After you fisnish the steps above, you should see the model running in the terminal. Feel free to ask questions to Mistral NeMo to test it!
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mistral-nemo-running-wendi.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mistral-nemo-running-wendi.png)
 <div align="center"><small>Mistral NeMo is running on your local systems</small></div>
 
 Here, we use the question "Can you explain the specific advantages of Mistral NeMo's large context window of up to 128k tokens, and how it impacts the model's performance in tasks such as language understanding and generation?" to ask Mistral NeMo as an example. Here is its answer: You can see that Mistral NeMo does not have a context window limit and can process your entire query at once.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mistralnemo-4.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mistralnemo-4.png)
 <div align="center"><small>An example of a question for Mistral NeMo</small></div>
 
 ## The Performance of Mistral NeMo
@@ -92,7 +92,7 @@ The accuracy and performance of the Mistral NeMo model surpasses other recent op
 
 Mistral NeMo outperforms Gemma 2 9B and Llama 3 8B in most benchmarks, despite having a similar or slightly larger model size. This suggests that the architecture and training methodology of Mistral NeMo are more effective.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mistral-nemo-performance-wendi.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mistral-nemo-performance-wendi.png)
 <div align="center"><small>Mistral NeMo base model performance compared to Gemma 2 9B and Llama 3 8B</small></div>
 
 Based on the performance of Mistral NeMo, we can make several key observations:
@@ -119,7 +119,7 @@ Based on the performance of Mistral NeMo, we can make several key observations:
 
 The model is tailored for global, multilingual applications. It is optimized for function calling, features a large context window, and excels in languages including English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi. This represents a significant advancement in making cutting-edge AI models accessible to people worldwide, encompassing the diverse languages that constitute human culture.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mistralnemo-5.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mistralnemo-5.png)
 <div align="center"><small>Mistral NeMo performance on multilingual benchmarks</small></div>
 
 - **Hellaswag Benchmark** tests common sense reasoning. 
@@ -136,7 +136,7 @@ The graphs highlight that Mistral NeMo has a clear advantage in accuracy across 
 
 Mistral NeMo utilizes a new tokenizer called Tekken, which is based on Tiktoken and trained on over 100 languages. This tokenizer compresses natural language text and source code more efficiently than the SentencePiece tokenizer used in previous Mistral models. Specifically, Tekken is approximately 30% more efficient at compressing source code, as well as Chinese, Italian, French, German, Spanish, and Russian. It also demonstrates 2x and 3x greater efficiency in compressing Korean and Arabic, respectively. 
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/mistralnemo-6.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/mistralnemo-6.png)
 <div align="center"><small>Tekken compression rate</small></div>
 
 This chart illustrates the compression ratios of the Tekken algorithm across different languages and code. The compression ratio indicates the size of the data after compression relative to its original size. A higher compression ratio means that the data is compressed more effectively. When compared to the Llama 3 tokenizer, Tekken is more proficient in compressing text for around 85% of all languages.
