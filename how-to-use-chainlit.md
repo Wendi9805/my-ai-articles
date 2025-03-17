@@ -2,7 +2,7 @@
 
 It's time to integrate an AI model with Chainlit in your application.<br>
 
-![[chainlit-cover-photo.png]](../../img/chainlit-cover-photo.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/chainlit-cover-photo.png)
 
 <div align="center"><small>Created using DALLE on July 24, 2024</small></div>
 
@@ -35,7 +35,7 @@ After installation is complete, the Chainlit command should be available on your
 
 A new window of chainlit UI should pop up and ask for your name like this:<br>
 
-![[chainlit-ui.png]](../../img/chainlit-ui.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/chainlit-ui.png)
 <div align="center"><small>The Basic Chainlit UI Interface</small></div>
 
 If you see something like this, you are all set! :)<br>
@@ -105,7 +105,7 @@ Run **app.py** using the command below in terminal.<br>
 
 Then, you can test this demo by typing some messages!<br>
 
-![[chainlit-mario-bot.png]](../../img/chainlit-mario-bot.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/chainlit-mario-bot.png)
 <div align="center"><small>Ask questions to the Mario bot</small></div>
 
 #### Integrate Chainlit with other frameworks
@@ -165,7 +165,7 @@ Run our application in the terminal using the command below:<br>
 
 We have built our own story maker, let's have a try!<br>
 
-![[chainlit-generated-story.png]](../../img/chainlit-generated-story.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/chainlit-generated-story.png)
 <div align="center"><small>Story generated based on the keywords</small></div><br>
 
 By integrating Chainlit with other LLMs, we can easily create a decent dialogue interface UI and functional application. Additionally, we can customise the application using different types of AI Models. Another advantage of Chainlit is that it can be used across multiple platforms, such as Web App, Copilot, API, Slack, etc. You might have noticed that when we run the demo in this tutorial, it opens our application in your default web browser. It indicates that we have already deployed Chainlit in our web app.
