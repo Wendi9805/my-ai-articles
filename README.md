@@ -20,26 +20,29 @@ An overview of ChatGPT-4o Mini, a cost-effective and efficient version of GPT-4 
 ### 4. **[Introduction to GLUE Benchmark](https://medium.com/@researchgraph/introduction-to-glue-benchmark-82d1b7d161c8)**
 A deep dive into the General Language Understanding Evaluation (GLUE), a benchmark suite for evaluating NLP model performance across multiple tasks and linguistic phenomena.
 
-### 5. **[MLflow Beginner's Guide: How to Get Started with MLflow](https://medium.com/@researchgraph/mlflow-beginners-guide-how-to-get-started-with-mlflow-4c64c0822fa4)**
+### 5. **[LLava: Advancing Image Recognition with Enhanced AI Models](https://medium.com/@researchgraph/llava-advancing-image-recognition-with-enhanced-ai-models-b83ac3dfcd31)**
+LLaVA is a multimodal large language model developed by the University of Wisconsin and Microsoft. It excels at understanding and answering questions related to images by combining vision and language processing. With capabilities similar to advanced models like GPT-4, LLaVA is particularly suited for tasks involving both textual and visual inputs, such as image-based Q&A and visual data interpretation.
+
+### 6. **[MLflow Beginner's Guide: How to Get Started with MLflow](https://medium.com/@researchgraph/mlflow-beginners-guide-how-to-get-started-with-mlflow-4c64c0822fa4)**
 Explores MLflow, an open-source platform for managing the machine learning lifecycle—tracking, packaging, and deploying models efficiently.
 
-### 6. **[Mistral Models vs. Competitors: A Performance Showdown Across NLP, Code, and Multilingual Tasks](https://medium.com/@researchgraph/mistral-models-vs-competitors-a-performance-showdown-across-nlp-code-and-multilingual-tasks-af2f901455bc)**
+### 7. **[Mistral Models vs. Competitors: A Performance Showdown Across NLP, Code, and Multilingual Tasks](https://medium.com/@researchgraph/mistral-models-vs-competitors-a-performance-showdown-across-nlp-code-and-multilingual-tasks-af2f901455bc)**
 Covers the open-source Mistral language models, including Mistral 7B, NeMo, and Mistral Large, highlighting their flexibility and deployment advantages.
 
-### 7. **[Qwen 2.5: Is It Really That Good?](https://medium.com/@researchgraph/qwen-2-5-is-it-really-that-good-aad0b3bd1fa1)**
+### 8. **[Qwen 2.5: Is It Really That Good?](https://medium.com/@researchgraph/qwen-2-5-is-it-really-that-good-aad0b3bd1fa1)**
 Introduces Qwen2.5, an open-source large language model suite supporting coding, reasoning, and multilingual tasks with models up to 72B parameters.
 
-### 8. **[Stable Fast 3D: Rapid 3D Asset Creation from a Single Image](https://medium.com/@researchgraph/stable-fast-3d-rapid-3d-asset-creation-from-a-single-image-8067d232f343)**
+### 9. **[Stable Fast 3D: Rapid 3D Asset Creation from a Single Image](https://medium.com/@researchgraph/stable-fast-3d-rapid-3d-asset-creation-from-a-single-image-8067d232f343)**
 Presents SF3D, a model that transforms single images into fully-textured 3D models within seconds—ideal for gaming, design, and VR applications.
 
-### 9. **[Unlocking the Power of ChatGPT's Advanced Voice Mode](https://medium.com/@researchgraph/unlocking-the-power-of-chatgpts-advanced-voice-mode-69467a559783)**
+### 10. **[Unlocking the Power of ChatGPT's Advanced Voice Mode](https://medium.com/@researchgraph/unlocking-the-power-of-chatgpts-advanced-voice-mode-69467a559783)**
 Explains the real-time voice interaction feature of ChatGPT, enabling more natural and fluid conversations without the need for intermediate transcription.
 
-### 10. **[How to use Chainlit](https://medium.com/@researchgraph/how-to-use-chainlit-8ae7e35fb55a)**
+### 11. **[How to use Chainlit](https://medium.com/@researchgraph/how-to-use-chainlit-8ae7e35fb55a)**
 Introduces Chainlit, an open-source Python framework for rapidly building and managing conversational applications integrated with LLMs.
 
-### 11. **[Introducing Mistral NeMo: Everything You Need to Know About This Powerful AI Model](https://medium.com/@researchgraph/introducing-mistral-nemo-2a4f974c2e45)**
+### 12. **[Introducing Mistral NeMo: Everything You Need to Know About This Powerful AI Model](https://medium.com/@researchgraph/introducing-mistral-nemo-2a4f974c2e45)**
 Details the 12B parameter Mistral NeMo model developed with NVIDIA, offering exceptional performance and a 128k token context window.
 
-### 12. **[Running Mistral Models with Hugging Face or Ollama: A Step-by-Step Guide](https://medium.com/@researchgraph/running-mistral-models-with-hugging-face-or-ollama-5bb63770d985)**
+### 13. **[Running Mistral Models with Hugging Face or Ollama: A Step-by-Step Guide](https://medium.com/@researchgraph/running-mistral-models-with-hugging-face-or-ollama-5bb63770d985)**
 An overview of the Mistral language model family and their practical uses across NLP tasks. The models are open-source, lightweight, and integration-ready.
