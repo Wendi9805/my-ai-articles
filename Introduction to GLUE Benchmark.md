@@ -116,7 +116,7 @@ The GLUE benchmark is widely used to assess how well models understand and proce
 	- Input: `A man is playing a guitar.` and `A cat is sitting on a chair.`
 	- Output: `1.0` (No semantic similarity)
 
-![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/img/GLUE-2.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GLUE-2.jpg)
 <div align="center"><small>Summary of GLUE benchamrk tasks</small></div>
 
 These tasks includes datasets split into training, validation, and testing sets, except for MNLI and AX, which share the same training set. By covering a wide range of language understanding challenges, GLUE provides a comprehensive evaluation of a model’s ability to generalize across various linguistic phenomena.
