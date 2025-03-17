@@ -2,7 +2,7 @@
 
 Discover How GPT-4o Mini Balances Power and Efficiency for Everyday AI Tasks
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/gpt-avatar.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/gpt-avatar.png)
 <div align="center"><small>Created using DALLE on August 22, 2024, using prompt "avatar of ChatGPT"</small></div>
 
 ## Authors
@@ -101,26 +101,26 @@ When selecting the appropriate version of ChatGPT for your needs, it’s essenti
 
 Using ChatGPT-4o mini is quite easy. The first thing you need to do is go to its [official website](https://chatgpt.com/) and register or log in to your OpenAI account.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/gpt-website1.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/gpt-website1.png)
 <div align="center"><small>ChatGPT user interface on its official website</small></div>
 
 ### Step 2: Upgrade Your Current Free Plan to A Paid Version.
 
 Because ChatGPT-4o mini is a business product, if you don't pay, you are limited to a certain number of uses within a given time period. To fully utilize the service, you need to upgrade to a paid version. To do this, click on the profile icon in the top right corner, then select **My Plan** from the dropdown menu.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/gpt-website2.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/gpt-website2.jpg)
 <div align="center"><small>Manage your ChatGPT subscription</small></div>
 
 This paid plan includes access to all ChatGPT models, such as ChatGPT-4o, ChatGPT-4o mini, ChatGPT-4, DALLE, and more. The cost is $20 USD per month for a personal plan.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/gpt-website3.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/gpt-website3.jpg)
 <div align="center"><small>The price of ChatGPT plan</small></div>
 
 ### Step 3: Select the ChatGPT-4o Mini Model
 
 Click the model selection button on the top left side, then choose **GPT-4o mini**. Once you've done that, you're all set!
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/gpt-website4.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/gpt-website4.jpg)
 <div align="center"><small>Select the model you need from the dropdown menu</small></div>
 
 ## Performance and Benchmarks of ChatGPT-4o Mini
@@ -135,7 +135,7 @@ Across several key benchmarks, GPT-4o Mini has demonstrated exceptional performa
 
 - **Multimodal reasoning**: GPT-4o Mini also shows strong performance in multimodal reasoning, scoring 59.4% on the MMMU benchmark, surpassing Gemini Flash's 56.1% and Claude Haiku's 50.2%.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/gpt-benchmarks.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/gpt-benchmarks.png)
 <div align="center"><small>Eval benchmark, downloaded from ChatGPT-4o mini official website</small></div>
 
 ## Performance Differences Between GPT-4o and GPT-4o Mini
@@ -146,12 +146,12 @@ Question: Explain the key differences between renewable and non-renewable energy
 
 **Answer from ChatGPT-4o mini:**
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/gpt-q1-4omini.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/gpt-q1-4omini.png)
 <div align="center"><small>ChatGPT-4o mini answer</small></div>
 
 **Answer from ChatGPT-4o:**
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/gpt-q1-4o.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/gpt-q1-4o.png)
 <div align="center"><small>ChatGPT-4o answer</small></div>
 
 From this, we can see that both GPT-4o and GPT-4o Mini handle this question well within the word limit, delivering clear and concise explanations. The differences in the answers provided by the two models are likely minimal, making this an ideal example to demonstrate that there isn't a significant performance gap between them in everyday, practical tasks.
@@ -162,12 +162,12 @@ Question: Generate a creative short story (300-400 words) that incorporates comp
 
 **Answer from ChatGPT-4o mini:**
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/gpt-q2-4omini.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/gpt-q2-4omini.png)
 <div align="center"><small>ChatGPT-4o mini answer</small></div>
 
 **Answer from ChatGPT-4o:**
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/gpt-q2-4o.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/gpt-q2-4o.png)
 <div align="center"><small>ChatGPT-4o answer</small></div>
 
 When it comes to complex questions, GPT-4o Mini doesn't perform as well as GPT-4o. From this example, we can also see that the story generated by GPT-4o Mini lacks logical coherence, with many parts that don't make sense. GPT-4o is likely to create a more intricate story with deeper character development, a more sophisticated plot twist, and richer, more vivid descriptions. While GPT-4o Mini is still capable of generating a good story, it might simplify character development, deliver a less surprising plot twist, and use less detailed or nuanced descriptive language.
