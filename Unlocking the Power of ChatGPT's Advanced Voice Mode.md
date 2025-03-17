@@ -2,7 +2,7 @@
 
 Let's explore ChatGPT's Advanced Voice Mode
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/chatgpt_advanced_voice_1.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/chatgpt_advanced_voice_1.png)
 <div align="center"><small>Created using DALLE on October 4, 2024, using prompt "ChatGPT's Advanced Voice Mode"</small></div>
 
 ## Authors
@@ -39,17 +39,17 @@ To start a voice conversation, we can only use the feature on mobile devices sin
 
 Select the Voice icon in the bottom-right corner:
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/chatgpt_advanced_voice_2.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/chatgpt_advanced_voice_2.png)
 <div align="center"><small>ChatGPT Voice Input Button</small></div>
 
 When you begin an **advanced voice** chat, you'll see a screen with a blue orb:
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/chatgpt_advanced_voice_3.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/chatgpt_advanced_voice_3.jpg)
 <div align="center"><small>User interface of ChatGPT advanced voice mod</small></div>
 
 Please note that conversations using **standard voice** have a black circle in the center.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/chatgpt_advanced_voice_4.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/chatgpt_advanced_voice_4.jpg)
 <div align="center"><small>User interface of old ChatGPT voice chat</small></div>
 
 Once everything is set up, you're ready to start using the new voice chat. If it's your first time using **advanced voice**, you'll be prompted to choose a voice. You can change your voice anytime in the settings, or within the voice mode using the customization menu in the top-right corner.
@@ -70,7 +70,7 @@ Once everything is set up, you're ready to start using the new voice chat. If it
 	- Spruce - Calm and affirming
 	- Vale - Bright and inquisitive
 
-	![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/chatgpt_advanced_voice_5.png)
+	![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/chatgpt_advanced_voice_5.png)
     <div align="center"><small>User interface of old ChatGPT voice chat</small></div>
 
 	These voices sound highly realistic and can even mimic the subtle noises or pauses that naturally occur in human speech. This significantly enhances the user experience, making interactions more lifelike and immersive. <br>
@@ -109,7 +109,7 @@ Here are some potential drawbacks of the new Advanced Voice Mode:
 
 	It's a bit disappointing that paid users only have limited minutes of usage per day for **Advanced Voice Mode**.
 
-	![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/chatgpt_advanced_voice_6.jpg)
+	![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/chatgpt_advanced_voice_6.jpg)
     <div align="center"><small>Reach the limit of data</small></div>
     
 2. **Pronunciation Issues**: Although it supports multiple languages, some of the accents or pronunciations in non-English languages can sound unnatural or inaccurate.
