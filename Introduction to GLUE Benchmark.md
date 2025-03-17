@@ -2,7 +2,7 @@
 
 Let's explore the GLUE benchmark!
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GLUE-1.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GLUE-1.png)
 <div align="center"><small>Created using DALLE on October 4, 2024, using prompt "A scientist testing LLM models on a computer"</small></div>
 
 ## Authors
@@ -116,7 +116,7 @@ The GLUE benchmark is widely used to assess how well models understand and proce
 	- Input: `A man is playing a guitar.` and `A cat is sitting on a chair.`
 	- Output: `1.0` (No semantic similarity)
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GLUE-2.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/img/GLUE-2.jpg)
 <div align="center"><small>Summary of GLUE benchamrk tasks</small></div>
 
 These tasks includes datasets split into training, validation, and testing sets, except for MNLI and AX, which share the same training set. By covering a wide range of language understanding challenges, GLUE provides a comprehensive evaluation of a model’s ability to generalize across various linguistic phenomena.
@@ -137,7 +137,7 @@ Despite the larger parameter count of the Mistral models, particularly **Mistral
 
 Thus, although **Mistral Large** has more parameters, Llama models demonstrate that efficiency and specific task fine-tuning can often outperform sheer size when it comes to benchmarks like GLUE.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GLUE-3.png)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GLUE-3.png)
 <div align="center"><small>Summary of GLUE benchamrk scores of different models</small></div>
 
 ## Conclusion
