@@ -1,6 +1,6 @@
 # README - My AI Articles
 
-Welcome to **My AI Articles**, a curated collection of articles that reflect my exploration and understanding of cutting-edge artificial intelligence technologies. These articles were written during my internship at [Research Graph](https://researchgraph.org/), and all of them were published on the company's Medium account. This repository serves as both a personal knowledge archive and a resource for those interested in machine learning, NLP models, robotics, and AI tools.
+Welcome to **My AI Articles**, a curated collection of articles that reflect my exploration and understanding of cutting-edge artificial intelligence technologies. These articles were written during my internship at [Research Graph](https://researchgraph.org/), and **all of them were published on the company's Medium account**. This repository serves as both a personal knowledge archive and a resource for those interested in machine learning, NLP models, robotics, and AI tools.
 
 Each article in this collection introduces a specific topic or tool in AI, aiming to make complex concepts accessible and useful for developers, researchers, and enthusiasts.
 
