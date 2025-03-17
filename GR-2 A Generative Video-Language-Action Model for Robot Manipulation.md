@@ -2,7 +2,7 @@
 
 Let's explore GR-2 together.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-1.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-1.jpg)
 <div align="center"><small>GR-2 logo, downloaded from paper "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation"</small></div>
 
 ## Authors
@@ -22,12 +22,12 @@ GR-2’s training process is divided into two key stages:
 
 2. **Fine-tuning on Robot Data**: In the second stage, GR-2 is fine-tuned using robot trajectory data to predict both action trajectories and corresponding video sequences. Unlike the video data used in pre-training, robot data often involves multiple camera angles and viewpoints, which GR-2 is designed to handle gracefully. This fine-tuning stage optimizes the model to generate accurate action trajectories in Cartesian space, allowing robots to perform tasks precisely. The model’s Whole-Body Control (WBC) algorithm ensures that the robot follows the planned trajectories smoothly, incorporating real-time motion tracking and trajectory optimization.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-2.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-2.jpg)
 <div align="center"><small>Pre-training Dataset downloaded from paper "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation"</small></div>
 
 By first conducting pre-training on video generation, the GR-2 model can fully leverage the general knowledge obtained from large-scale video data, significantly reducing the need for extensive robot-specific data. **After completing video generation pre-training, the model learns how to predict future visual states. During fine-tuning, these visual predictions aid the model in more effectively planning the robot's action sequences.** Since the model already possesses the ability to anticipate environmental changes, it can swiftly generate accurate action trajectories during real-world operations, ensuring smoother and more efficient execution of robotic tasks.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-3.jpg)<div align="center"><small>GR-2 undergoes two stages of training: video generation pre-training and robot data fine-tuning, downloaded from paper "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation"</small></div>
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-3.jpg)<div align="center"><small>GR-2 undergoes two stages of training: video generation pre-training and robot data fine-tuning, downloaded from paper "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation"</small></div>
 
 ## Benchmark Test Results
 
@@ -37,28 +37,28 @@ GR-2 was evaluated across multiple benchmarks to demonstrate its capability:
 
 **Multi-task Learning**: GR-2 was tested on 105 different manipulation tasks, achieving an average success rate of 97.7%. These tasks involved a variety of complex operations such as picking, placing, uncapping, pressing, and more. GR-2 excelled even in challenging settings like environments with distractors, unseen backgrounds, and unseen tasks. This high performance highlights its ability to handle real-world variability and adapt to new situations with minimal additional training.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-4.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-4.jpg)
 <div align="center"><small> Success rates of multi-task learning, downloaded from paper "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation"</small></div>
 
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-5.gif)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-5.gif)
 <div align="center"><small> Performance of this model, downloaded from paper "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation"</small></div>
 
 ### End-to-End Bin-Picking
 
 **End-to-End Bin-Picking**: In an industrial context, GR-2 was tested on a bin-picking task involving 122 objects, 55 of which were seen during training and 67 unseen. GR-2 outperformed its predecessor GR-1 by a large margin, maintaining a success rate comparable between seen and unseen objects. It also managed cluttered environments without significant degradation in performance, showcasing its potential for practical applications in industries like logistics and manufacturing.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-6.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-6.jpg)
 <div align="center"><small> Success rates of end-to-end bin-picking, downloaded from paper "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation"</small></div>
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-7.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-7.jpg)
 <div align="center"><small> Objects used in the bin-picking experiments, downloaded from paper "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation"</small></div>
 
 ### CALVIN Benchmark
 
 **CALVIN Benchmark**: GR-2 established a new state-of-the-art on the CALVIN benchmark, a simulation environment designed for long-horizon, language-conditioned robot manipulation tasks. GR-2 outperformed five leading models, including RT-1 and HULC, in terms of success rates and average task completion length. It demonstrated the ability to complete sequences of tasks in a row, further proving its versatility and efficiency.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-8.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-8.jpg)
 <div align="center"><small> CALVIN benchmark results, downloaded from paper "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation"</small></div>
 
 CALVIN Benchmark: The CALVIN Benchmark consists of 34 different manipulation tasks, where the robot needs to execute these tasks sequentially after receiving language instructions. These tasks involve complex multi-step operations, with the core evaluation focusing on:
@@ -73,7 +73,7 @@ Thus, the CALVIN Benchmark is a comprehensive standard used to assess a robot's 
 
 A unique aspect of GR-2 is its use of auto-regressive video generation to aid in action prediction. By generating future video frames, the model can act as a planner, simulating how a task will unfold before executing it. This capability allows GR-2 to improve action accuracy by ensuring that predicted trajectories align with expected visual outcomes. In experiments, the generated videos closely matched real-world rollouts, indicating that the model can effectively "replay" the predicted action based on the generated visual trajectory. This iterative improvement of video generation translates directly into more accurate and reliable action prediction.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-9.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-9.jpg)
 <div align="center"><small> Pred and GT results of testings, downloaded from paper "GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation"</small></div>
 
 In this image, **Pred** and **GT** represent the following:
@@ -90,35 +90,35 @@ The purpose is to demonstrate how well the model's predictions (Pred) align with
 
 The GR-2 model excels in precise object manipulation, including highly accurate grasping capabilities. It can effortlessly handle tasks such as grasping cylindrical glass bottles or even very thin items, ensuring reliable performance even with challenging objects that require careful handling. This makes it a powerful tool for intricate and precise robotic tasks in various real-world applications.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-10.gif)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-10.gif)
 <div align="center"><small> Accurate grasping capability</small></div>
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-11.gif)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-11.gif)
 <div align="center"><small> Grasping items while giving new items</small></div>
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-12.gif)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-12.gif)
 <div align="center"><small> Grasping cylindrical glass bottles</small></div>
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-13.gif)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-13.gif)
 <div align="center"><small> Grasping very thin items</small></div>
 
 ### 2. Accurate grasping capability
 
 The GR-2 model is also capable of assisting humans with a wide range of everyday tasks, from preparing breakfast to making coffee. Its advanced capabilities allow it to perform complex activities with precision, making it an ideal solution for automating routine tasks and supporting daily activities with ease.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-14.jpg)<div align="center"><small> Making breakfast for human</small></div>
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-14.jpg)<div align="center"><small> Making breakfast for human</small></div>
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-15.gif)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-15.gif)
 <div align="center"><small> GIF: Making breakfast for human</small></div>
 
 ### 3. Sorting tasks
 
 The GR-2 model can also perform sorting tasks with high efficiency. For example, it can sort fruits on a table and place them into different bowls as needed. This ability to organize and classify objects makes GR-2 a versatile tool for managing sorting tasks in both everyday and industrial scenarios.
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-16.jpg)
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-16.jpg)
 <div align="center"><small> Before sorting</small></div>
 
-![](https://cdn.jsdelivr.net/gh/data-community-of-practice/AI-Graph-Obsidian/img/GR2-17.jpg)<div align="center"><small> After sorting</small></div>
+![](https://cdn.jsdelivr.net/gh/Wendi9805/my-ai-articles/images/GR2-17.jpg)<div align="center"><small> After sorting</small></div>
 
 In the past, many AI models primarily focused on large language models (LLMs) or image generation capabilities, with their influence largely confined to the digital realm, limited to interactions within computers or operating systems. They lacked the ability to directly affect the physical world. However, with this model, they are taking a significant step forward. GR-2 goes beyond the boundaries of traditional AI by bridging the gap between digital intelligence and real-world action. This model not only excels in understanding and generating language, but also has the capability to manipulate and interact with the physical environment.
 
